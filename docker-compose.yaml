@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+
+  php:
+    build: .
+    container_name: baranov-otus-hw1
+    working_dir: /application
+    volumes:
+        - .:/application
